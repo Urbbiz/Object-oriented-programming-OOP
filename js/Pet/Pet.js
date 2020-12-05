@@ -5,6 +5,7 @@ class Pet extends Animal {
         super(name, furColor)
         this.legCount = legCount;
         this.likePlaying = likePlaying;
+        this.loyal = false; 
         // this.walk = walk;
       
     }
